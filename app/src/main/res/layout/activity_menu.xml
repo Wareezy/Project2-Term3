@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="288dp"
+        android:layout_height="75dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="MENU PAGE"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.634"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="187dp"
+        android:layout_height="51dp"
+        android:background="@drawable/btn_background"
+        android:backgroundTintMode="add"
+        android:text="About Page"
+        app:backgroundTint="@color/black"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnContactPage"
+        android:layout_width="126dp"
+        android:layout_height="57dp"
+        android:background="@drawable/btn_background"
+        android:backgroundTintMode="add"
+        android:text="ContactPage"
+        app:backgroundTint="@color/black"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnFunctionPage"
+        android:layout_width="120dp"
+        android:layout_height="61dp"
+        android:background="@drawable/btn_background"
+        android:backgroundTintMode="add"
+        android:text="Function Page"
+        app:backgroundTint="@color/black"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnReturnToLogin"
+        android:layout_width="120dp"
+        android:layout_height="61dp"
+        android:background="@drawable/btn_background"
+        android:backgroundTintMode="add"
+        android:text="Return to Login"
+        app:backgroundTint="@color/black"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

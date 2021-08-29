@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592609193516",
+    "project_id": "capture-f881e",
+    "storage_bucket": "capture-f881e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592609193516:android:ae3b3c83f27107101a6b89",
+        "android_client_info": {
+          "package_name": "com.example.registration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592609193516-5bsuj3snrdvbfooql5elti8j5km99emq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1e2d0J-OsqBStI7SMY6vpaV016cuU3-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592609193516-5bsuj3snrdvbfooql5elti8j5km99emq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

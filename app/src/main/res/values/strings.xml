@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Registration</string>
+    //Headings
+    <string name="heading_About">About Us</string>
+    <string name="heading_m1">Edvalter Jamba</string>
+    <string name="heading_m2">Warren Jaftha</string>
+    <string name="heading_m3">Brent Hendricks</string>
+    <string name="heading_m4">Marvin Hope</string>
+    <string name="heading_m5">Ameer Ismail</string>
+
+    //Description
+    <string name="desc_About">Many people are Caught off guard by load shedding mainly they are not aware of
+        the times that load shedding will be taking place.This app is used as a loadshedding alert.</string>
+    <string name="desc_member1"> Currently Studying at CPUT doing 2º year in ICT:Application Development</string>
+    <string name="desc_member2"> Currently Studying at CPUT doing ICT:Application Development</string>
+    <string name="desc_member3">Currently Studying at CPUT doing ICT:Application Development</string>
+    <string name="desc_member4"> Currently Studying at CPUT doing ICT:Application Development</string>
+    <string name="desc_member5"> Currently Studying at CPUT doing ICT:Application Development</string>
+
+</resources>
